@@ -1,0 +1,71 @@
+body {
+    min-height: 100vh;
+    background: linear-gradient(rgba(241, 239, 115, 0.561), rgba(252, 187, 67, 0.459));
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.comments {
+    width: 400px;
+    margin: auto;
+
+}
+.form_block {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+label{
+    margin-bottom: 5px;
+}
+
+.comment {
+    position:relative;
+    background: #fff;
+    margin: 20px;
+    padding: 5px;
+}
+.comment pre {
+    margin-top: 20px;
+    padding: 5px;
+    background: rgb(240, 240, 240);
+}
+
+.name {
+    font-size: 0.8em;
+}
+.time {
+    float:right;
+}
+.remove {
+    position: absolute;
+    background: #fff;
+    top: -20px;
+    right: -20px;
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    font-size: 1.25em;
+    line-height: 1.5em;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 1.5em;
+    text-decoration:none;
+}
+
+.update {
+    position:absolute;
+    top: 25px;
+    right:0;
+}
+
+.template{
+    display: none;
+    
+}
+.edit{
+    background: rgb(60, 255, 0);
+}
+
+.edit .name{
+    display: none;
+}
